@@ -2,7 +2,7 @@ import got from 'got';
 import { userAgents } from './Defaults';
 import { getID, getRandomArray, getUrlWithRandons } from './utils';
 
-let urlVideo = 'https://vm.tiktok.com/ZMLprpuM5/'
+let urlVideo = process.argv[2]
 
 let requests = {
     total: 0,
