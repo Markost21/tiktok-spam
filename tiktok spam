@@ -1,0 +1,6 @@
+import { TikTokSendShare } from '@viniciusgdr/tiktok-spam';
+
+setInterval(async () => {
+    let result = TikTokSendShare('https://www.tiktok.com/@elias.gravdal/video/7084253024251661573')
+    console.log(result)
+}, 500)
